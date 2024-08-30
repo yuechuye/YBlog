@@ -22,8 +22,29 @@
                 <!-- 文章列表 -->
                 <div class="recent-posts">
                     <div class="recent-post-item">
-                       <div class="post_cover left">1</div>
-                       <div class="recent-post-info">2</div>
+                        <div class="post_cover left">
+                            <img style="height: 100%;width: 100%;"
+                                src="https://img.hongyoubizhi.com/picture/pages/regular/2023/02/10/14/106449882_p0_master1200.jpg?x-oss-process=image/resize,m_fill,w_1000"
+                                alt="">
+                            </img>
+                        </div>
+                        <div class="recent-post-info">
+                            <div class="post-info">
+                                <a href="" class="article-title">
+                                    八股
+                                </a>
+
+                                <div class="article-meta-wrap">
+                                    <span class="post-meta-date"></span>
+                                    <span class="article-meta"></span>
+                                    <span class="article-meta tags"></span>
+
+                                </div>
+
+                                <div class="content">并发AQS它是juc包中多个组件的底层实现，例如lock、Semaphore都用到了AQS，AQS提供了俩种锁的机制：排他锁和共享锁
+                                    排他锁是指</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -46,7 +67,7 @@
                     </div>
 
                     <div>
-                        11
+
                     </div>
                 </div>
             </div>
@@ -86,7 +107,7 @@ import TypeIt from 'typeit'
     height: 100vh;
     width: 100%;
     position: relative;
-     /* 使得 ::before 或 ::after 伪元素相对于 #home 定位  */
+    /* 使得 ::before 或 ::after 伪元素相对于 #home 定位  */
     overflow: hidden;
     /* 防止遮罩层溢出 */
 }
@@ -171,13 +192,62 @@ import TypeIt from 'typeit'
     /* background-color: red; */
 }
 
-.recent-posts{
-    width: 74%;
-    background-color: red;
+.recent-posts {
+    width: 100%;
+    height: 90%;
 }
 
- 
- 
+.recent-post-item {
+    width: 870px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 设置圆角 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* 添加阴影效果 */
+    background-color: #ffffff;
+    /* 背景颜色 */
+    box-sizing: border-box;
+    /* 确保 padding 不影响宽度和高度 */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.post_cover {
+    width: 370px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.recent-post-info {
+    float: right;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+}
+
+.post-info {
+    height: 160px;
+    width: 440px;
+    margin: 0 auto;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    background-color: antiquewhite;
+}
+
+
+
 
 .home-bottom-right {
     float: right;
@@ -254,11 +324,9 @@ import TypeIt from 'typeit'
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .fake-footer {
     height: 200px;
     text-align: center;
 }
-
-
-
 </style>
