@@ -30,19 +30,24 @@
                         </div>
                         <div class="recent-post-info">
                             <div class="post-info">
-                                <a href="" class="article-title">
-                                    八股
-                                </a>
+                           
+                                    <a href="" style="text-decoration: none; color:black;font-size: 24px;">
+                                        Mysql 查询优化之 Using filesort
+                                    </a>
+                              
+                           
+                
+
 
                                 <div class="article-meta-wrap">
-                                    <span class="post-meta-date"></span>
-                                    <span class="article-meta"></span>
-                                    <span class="article-meta tags"></span>
+                                    <span class="post-meta-date">发表于9 天前|更新于9 天前|MYSQL|MYSQL•优化</span>
+                                    <!-- <span class="article-meta"></span>
+                                    <span class="article-meta tags"></span> -->
 
                                 </div>
 
-                                <div class="content">并发AQS它是juc包中多个组件的底层实现，例如lock、Semaphore都用到了AQS，AQS提供了俩种锁的机制：排他锁和共享锁
-                                    排他锁是指</div>
+                                <div class="content">Mysql 查询优化之 Using filesort最近在优化分页查询的时候，遇到了一个问题，如下（基于Mysql Innodb）
+                                    我们先建一个</div>
                             </div>
                         </div>
                     </div>
@@ -220,10 +225,22 @@ import TypeIt from 'typeit'
 }
 
 .post_cover {
+    position: relative;
+    overflow: hidden; /* 隐藏超出部分 */
     width: 370px;
     height: 250px;
     background-size: cover;
     background-position: center;
+}
+
+.post_cover img {
+  transition: transform 0.3s ease; /* 添加过渡效果 */
+  width: 100%; /* 图片宽度为容器宽度 */
+  height: auto; /* 自动高度 */
+}
+
+.post_cover img:hover {
+  transform: scale(1.1); /* 鼠标悬停时放大1.1倍 */
 }
 
 .recent-post-info {
@@ -240,10 +257,25 @@ import TypeIt from 'typeit'
     width: 440px;
     margin: 0 auto;
     /* background-color: pink; */
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     /* 垂直居中 */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+}
+
+
+.article-meta-wrap{
+    height: 50px;
+    line-height: 50px;
+    margin: 6px 0;
+    font-size: 13px;
+    color: #858585;
+    /* background-color: red; */
+}
+
+.content{
+    font-size: 15px;
+    color: #4c4948;
 }
 
 
