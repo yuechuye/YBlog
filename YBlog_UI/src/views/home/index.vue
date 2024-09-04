@@ -30,20 +30,15 @@
                         </div>
                         <div class="recent-post-info">
                             <div class="post-info">
-                           
-                                    <a href="" style="text-decoration: none; color:black;font-size: 24px;">
-                                        Mysql 查询优化之 Using filesort
-                                    </a>
-                              
-                           
-                
 
+                                <a href="" style="text-decoration: none; color:black;font-size: 24px;">
+                                    Mysql 查询优化之 Using filesort
+                                </a>
 
                                 <div class="article-meta-wrap">
                                     <span class="post-meta-date">发表于9 天前|更新于9 天前|MYSQL|MYSQL•优化</span>
                                     <!-- <span class="article-meta"></span>
                                     <span class="article-meta tags"></span> -->
-
                                 </div>
 
                                 <div class="content">Mysql 查询优化之 Using filesort最近在优化分页查询的时候，遇到了一个问题，如下（基于Mysql Innodb）
@@ -59,7 +54,7 @@
 
             <div class="home-bottom-right">
 
-                <div class="user-info">
+                <div class="user-info y-card-box-radius">
                     <!-- 头像 -->
                     <div class="user-info-img">
                         <img class="user-info-img"
@@ -71,9 +66,65 @@
                         Yuechu
                     </div>
 
-                    <div>
+                    <div class="author-info__description">
+                        Yuechu`blog
+                    </div>
+
+                    <div class="card-info-data">
+
+                        <a class="text-decoration data-pjax-state" href="">
+                            <div class="headline">文章</div>
+                            <div class="length-num">1</div>
+                        </a>
+
+                        <a class="text-decoration data-pjax-state" href="">
+                            <div class="headline">标签</div>
+                            <div class="length-num">2</div>
+                        </a>
+
+                        <a class="text-decoration data-pjax-state" href="">
+                            <div class="headline">分类</div>
+                            <div class="length-num">3</div>
+                        </a>
 
                     </div>
+
+
+                    <a class="follow-me text-decoration" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2" />
+                        </svg>
+
+
+
+
+
+                        <span>Follow Me</span>
+
+                    </a>
+
+                    <div class="card-info-social-icons">
+                        <a style="    margin: 0 10px;" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                <path fill="rgb(76, 73, 72)"
+                                    d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2" />
+                            </svg>
+                        </a>
+                        <a style="    margin: 0 10px;"  href="">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 15">
+                               <path fill="rgb(76, 73, 72)"
+                                    d="M.5 2.5A1.5 1.5 0 0 1 2 1h12a1.5 1.5 0 0 1 1.5 1.5v1.208L8 7.926L.5 3.708z" />
+                                  <path fill="rgb(76, 73, 72)"
+                                    d="M.5 4.855V12.5A1.5 1.5 0 0 0 2 14h12a1.5 1.5 0 0 0 1.5-1.5V4.855L8 9.074z" />
+                            </svg>
+
+
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -89,6 +140,7 @@
 <script setup>
 
 import { onMounted } from 'vue'
+
 onMounted(() => {
     new TypeIt("#simpleUsage", {
         // strings: [" Welcome to Yuechu🥝のTiny Home!","Hope you have a nice day!🍭🍭🍭"],
@@ -208,7 +260,7 @@ import TypeIt from 'typeit'
     border-radius: 10px;
     overflow: hidden;
     /* 设置圆角 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
     /* 添加阴影效果 */
     background-color: #ffffff;
     /* 背景颜色 */
@@ -226,7 +278,8 @@ import TypeIt from 'typeit'
 
 .post_cover {
     position: relative;
-    overflow: hidden; /* 隐藏超出部分 */
+    overflow: hidden;
+    /* 隐藏超出部分 */
     width: 370px;
     height: 250px;
     background-size: cover;
@@ -234,13 +287,17 @@ import TypeIt from 'typeit'
 }
 
 .post_cover img {
-  transition: transform 0.3s ease; /* 添加过渡效果 */
-  width: 100%; /* 图片宽度为容器宽度 */
-  height: auto; /* 自动高度 */
+    transition: transform 0.3s ease;
+    /* 添加过渡效果 */
+    width: 100%;
+    /* 图片宽度为容器宽度 */
+    height: auto;
+    /* 自动高度 */
 }
 
 .post_cover img:hover {
-  transform: scale(1.1); /* 鼠标悬停时放大1.1倍 */
+    transform: scale(1.1);
+    /* 鼠标悬停时放大1.1倍 */
 }
 
 .recent-post-info {
@@ -264,7 +321,7 @@ import TypeIt from 'typeit'
 }
 
 
-.article-meta-wrap{
+.article-meta-wrap {
     height: 50px;
     line-height: 50px;
     margin: 6px 0;
@@ -273,7 +330,7 @@ import TypeIt from 'typeit'
     /* background-color: red; */
 }
 
-.content{
+.content {
     font-size: 15px;
     color: #4c4948;
 }
@@ -291,7 +348,7 @@ import TypeIt from 'typeit'
 
 .user-info {
     height: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 15px;
     /* background-color: red; */
 }
@@ -342,14 +399,56 @@ import TypeIt from 'typeit'
 }
 
 .nick-name {
-    height: 60px;
-    line-height: 60px;
+    height: 47px;
+    line-height: 47px;
     text-align: center;
     font-weight: 500;
-    font-size: 1.57em;
+    font-size: 24px;
 }
 
+.author-info__description {
+    color: #4c4948;
+    font-size: 15px;
+    text-align: center;
+}
 
+.card-info-data {
+    margin: 14px 0 4px;
+    height: 65px;
+    /* background-color: red; */
+}
+
+.follow-me {
+    display: block;
+    height: 36px;
+    background-color: rgb(73, 177, 245);
+    text-align: center;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.card-info-social-icons {
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.data-pjax-state {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.headline {
+    font-size: 15px;
+    height: 30px;
+}
+
+.length-num {
+    font-size: 21px;
+    height: 42px;
+}
 
 
 .pagetion {

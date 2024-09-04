@@ -1,0 +1,16 @@
+.text-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.y-card-box-radius {
+    border-radius: 10px;
+    overflow: hidden;
+    /* 设置圆角 */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* 添加阴影效果，包括顶部和底部 */
+    background-color: #ffffff;
+    /* 背景颜色 */
+    box-sizing: border-box;
+    /* 确保 padding 不影响宽度和高度 */
+}
